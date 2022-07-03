@@ -1,0 +1,29 @@
+@import "./base/normalize";
+@import "./base/font-face";
+@import "./base/reset";
+@import "./base/common";
+@import "./utils/visually";
+@import "./utils/variables";
+@import "./utils/placeholders";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/benefits";
+@import "./layout/service";
+@import "./layout/team";
+@import "./layout/partners";
+@import "./layout/footer";
+@import "./layout/portfolio";
+
+@import "./components/conteiner";
+@import "./components/logo";
+@import "./components/header-nav";
+@import "./components/contacts-header";
+@import "./components/hero-img";
+@import "./components/benefits-img";
+@import "./components/btn";
+@import "./components/media";
+@import "./components/follow-us";
+@import "./components/address";
+@import "./components/contacts-footer";
+@import "./components/modal";
