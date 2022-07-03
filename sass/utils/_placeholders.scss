@@ -1,0 +1,46 @@
+%btn {
+	display: flex;
+	font-family: inherit;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	cursor: pointer;
+
+	color: $white-text-color;
+	background-color: $accent-color;
+
+	box-shadow: $button-box-shadow;
+	border-radius: $border-radius;
+	border: none;
+
+	transition-property: background-color, box-shadow;
+	transition-duration: $timing-transition;
+	transition-timing-function: $timing-function;
+
+	&:hover,
+	&:focus {
+		background-color: $accent-batton-color;
+	}
+}
+
+%title {
+	margin-bottom: 50px;
+
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+
+	color: $primary-text-color;
+}
+%text {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
