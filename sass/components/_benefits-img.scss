@@ -1,0 +1,20 @@
+.benefits__item {
+	&:before {
+		display: flex;
+		width: 270px;
+		height: 120px;
+		margin-bottom: 30px;
+		content: "";
+
+		background-size: 70px 70px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-color: $button-bg-color;
+		border-radius: $border-radius;
+	}
+	@each $benefits in antenna, clock, diagram, astronaut {
+		&.#{$benefits}-icon::before {
+			background-image: url("../images/#{$benefits}.svg");
+		}
+	}
+}
