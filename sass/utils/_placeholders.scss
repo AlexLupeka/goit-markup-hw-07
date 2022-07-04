@@ -20,13 +20,26 @@
 	transition-property: background-color, box-shadow;
 	transition-duration: $timing-transition;
 	transition-timing-function: $timing-function;
-
-	&:hover,
-	&:focus {
-		background-color: $accent-batton-color;
-	}
 }
+%filter__btn {
+	font-weight: 500;
+	font-size: 16px;
+	font-family: inherit;
+	line-height: 1.63;
+	text-align: center;
+	letter-spacing: 0.03em;
+	cursor: pointer;
 
+	color: $primary-text-color;
+	background-color: $button-bg-color;
+
+	border: none;
+	border-radius: $border-radius;
+
+	transition-property: color, background-color, box-shadow;
+	transition-duration: $timing-transition;
+	transition-timing-function: $timing-function;
+}
 %title {
 	margin-bottom: 50px;
 
