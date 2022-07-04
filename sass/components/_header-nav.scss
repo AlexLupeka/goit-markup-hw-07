@@ -12,13 +12,14 @@
 	color: $primary-text-color;
 
 	transition-property: color;
-	transition-duration: var(--timing-transition);
-	transition-timing-function: var(--timing-function);
+	transition-duration: $timing-transition;
+	transition-timing-function: $timing-function;
 
 	&:hover,
 	&:focus {
 		color: $accent-color;
 	}
+
 	&.current {
 		color: $accent-color;
 	}
@@ -40,6 +41,7 @@
 		border-radius: 2px;
 	}
 }
+
 .site-nav {
 	display: flex;
 }

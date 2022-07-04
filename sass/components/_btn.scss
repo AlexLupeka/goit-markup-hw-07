@@ -5,6 +5,11 @@
 	padding: 10px 32px;
 
 	@extend %btn;
+
+	&:hover,
+	&:focus {
+		background-color: $accent-batton-color;
+	}
 }
 
 .form-modal__btn {
@@ -14,6 +19,11 @@
 	padding: 10px 55px 10px 56px;
 
 	@extend %btn;
+
+	&:hover,
+	&:focus {
+		background-color: $accent-batton-color;
+	}
 }
 
 .follow-us__btn {
@@ -22,4 +32,26 @@
 	margin-left: 12px;
 
 	@extend %btn;
+
+	&:hover,
+	&:focus {
+		background-color: $accent-batton-color;
+	}
+}
+
+.filter__btn {
+	padding: 6px 22px;
+	margin-right: 8px;
+
+	@extend %filter__btn;
+
+	&:last-child {
+		margin-right: 0;
+	}
+	&:hover,
+	&:focus {
+		color: $white-text-color;
+		background-color: $accent-color;
+		box-shadow: $portfolio-button-box-shadow;
+	}
 }
