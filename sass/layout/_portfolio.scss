@@ -1,36 +1,3 @@
-.filter__btn {
-	padding: 6px 22px;
-	margin-right: 8px;
-
-	font-weight: 500;
-	font-size: 16px;
-	font-family: inherit;
-	line-height: 1.63;
-	text-align: center;
-	letter-spacing: 0.03em;
-	cursor: pointer;
-
-	color: $primary-text-color;
-	background-color: $button-bg-color;
-
-	border: none;
-	border-radius: $border-radius;
-
-	transition-property: color, background-color, box-shadow;
-	transition-duration: $timing-transition;
-	transition-timing-function: $timing-function;
-
-	&:last-child {
-		margin-right: 0;
-	}
-	&:hover,
-	&:focus {
-		color: $white-text-color;
-		background-color: $accent-color;
-		box-shadow: $portfolio-button-box-shadow;
-	}
-}
-
 .filter__list {
 	display: flex;
 	justify-content: center;
